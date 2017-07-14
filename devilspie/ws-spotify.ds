@@ -1,0 +1,10 @@
+(if (is (application_name) "Untitled window")
+ (begin
+  (if (is (window_class) "")
+   (begin
+    (set_workspace 5)
+    (fullscreen)
+   )
+  )
+ )
+)

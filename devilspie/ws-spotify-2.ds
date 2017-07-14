@@ -1,0 +1,6 @@
+(if (is (application_name) "Spotify")
+ (begin
+  (set_workspace 5)
+  (fullscreen)
+ )
+)
