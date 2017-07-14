@@ -1,0 +1,8 @@
+(if
+ (is (application_name) "Untitled - Chromium")
+  (begin
+   (set_workspace 3)
+   (fullscreen)
+  )
+)
+

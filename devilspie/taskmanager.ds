@@ -1,7 +1,9 @@
 (if
  (is (window_class) "Xfce4-taskmanager")
   (begin
+   (geometry "734x459+0+0")
    (center)
+   (unmaximize)
   )
 )
 
