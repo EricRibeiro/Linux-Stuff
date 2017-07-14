@@ -1,0 +1,9 @@
+(if
+ (is (window_class) "Xfce4-taskmanager")
+  (begin
+   (center)
+  )
+)
+
+
+

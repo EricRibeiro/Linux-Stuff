@@ -1,0 +1,9 @@
+(if
+ (is (application_name) "Signal Private Messenger")
+  (begin
+   (set_workspace 4)
+   (fullscreen)
+   (skip_tasklist)
+  )
+)
+

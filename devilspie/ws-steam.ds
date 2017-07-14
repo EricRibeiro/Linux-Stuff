@@ -1,0 +1,7 @@
+(if
+ (is (window_name) "Steam")
+  (begin
+   (set_workspace 5)   
+  )
+)
+

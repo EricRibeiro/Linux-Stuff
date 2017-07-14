@@ -1,0 +1,8 @@
+(if
+ (is (application_name) "evolution")
+  (begin
+   (set_workspace 4)   
+   (fullscreen) 
+  )
+)
+

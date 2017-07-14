@@ -1,0 +1,35 @@
+(if (is (application_name) "Xpad")
+ (begin
+
+  (if (contains (window_name) "Untitled window")
+   (begin
+    (geometry "322x169+687+49")
+   )
+  )
+
+  (if (contains (window_name) "I.)")
+   (begin
+    (geometry "322x169+1019+49")
+   )
+  )
+
+  (if (contains (window_name) "II.)")
+   (begin
+    (geometry "322x169+1019+227")
+   )
+  )
+
+  (if (contains (window_name) "III.)")
+   (begin
+    (geometry "322x169+1019+405")
+   )
+  )
+
+  (if (contains (window_name) "IV.)")
+   (begin
+    (geometry "322x169+1019+583")
+   )
+  )
+
+ )
+)

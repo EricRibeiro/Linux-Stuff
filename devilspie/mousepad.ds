@@ -1,0 +1,8 @@
+(if
+ (is (application_name) "Mousepad")
+  (begin
+   (geometry "734x459+0+0")
+   (center)
+  )
+)
+
