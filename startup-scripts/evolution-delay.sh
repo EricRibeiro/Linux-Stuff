@@ -1,3 +1,3 @@
 #!/bin/bash
 (sleep 10s && evolution) &
-exit
+pkill -f 'bash /home/eric/.startup-scripts/evolution-delay.sh'
