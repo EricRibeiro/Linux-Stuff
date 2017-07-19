@@ -1,0 +1,10 @@
+(if (is (window_name) "Untitled")
+ (begin
+  (if (is (window_class) "Chromium")
+   (begin
+    (set_workspace 2)
+    (fullscreen)
+   )
+  )
+ )
+)
