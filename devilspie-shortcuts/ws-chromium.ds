@@ -1,0 +1,6 @@
+(if
+ (is (window_name) "New Tab - Chromium")
+  (begin
+   (set_workspace 1)   
+  )
+)

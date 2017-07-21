@@ -1,0 +1,14 @@
+# Allow the aliases specified in the file below
+if [ -f ~/Coding/Git/linux-stuff/shell/commands_aliases ]; then
+  source ~/Coding/Git/linux-stuff/shell/commands_aliases
+fi
+
+# Load the zsh-autosuggestions plugin
+source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+
+# Key bindings
+bindkey "^H" backward-kill-line
+
+# Turn the zsh's prompt theme system off and load Powerline's customizations
+prompt off
+source /usr/lib/python3.6/site-packages/powerline/bindings/zsh/powerline.zsh
