@@ -3,31 +3,31 @@
 
   (if (contains (window_name) "Untitled window")
    (begin
-    (geometry "322x169+687+49")
+    (geometry "322x169+687+40")
    )
   )
 
   (if (contains (window_name) "I.)")
    (begin
-    (geometry "322x169+1019+49")
+    (geometry "322x169+1019+40")
    )
   )
 
   (if (contains (window_name) "II.)")
    (begin
-    (geometry "322x169+1019+227")
+    (geometry "322x169+1019+217")
    )
   )
 
   (if (contains (window_name) "III.)")
    (begin
-    (geometry "322x169+1019+405")
+    (geometry "322x169+1019+393")
    )
   )
 
   (if (contains (window_name) "IV.)")
    (begin
-    (geometry "322x169+1019+583")
+    (geometry "322x169+1019+571")
    )
   )
 

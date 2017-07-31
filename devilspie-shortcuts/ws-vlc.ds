@@ -1,0 +1,7 @@
+(if
+ (is (application_name) "VLC media player")
+  (begin
+   (set_workspace 5)
+   (fullscreen)   
+  )
+)
