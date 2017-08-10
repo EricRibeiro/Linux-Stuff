@@ -1,0 +1,18 @@
+(if (is (application_name) "java")
+ (begin
+
+  (if (is (window_name) "Eclipse")
+   (begin
+    (set_workspace 2)
+   )
+  )
+
+  (if (contains (window_name) "- Eclipse")
+   (begin
+    (set_workspace 2)
+    (fullscreen)
+   )
+  )
+  
+ )
+)
