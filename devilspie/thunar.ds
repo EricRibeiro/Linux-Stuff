@@ -1,0 +1,9 @@
+(if
+ (is (application_name) "Thunar")
+  (begin
+   (geometry "734x459+0+0")
+   (center)
+   (unmaximize)
+  )
+)
+

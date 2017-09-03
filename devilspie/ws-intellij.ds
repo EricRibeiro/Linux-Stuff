@@ -1,0 +1,6 @@
+(if
+ (is (window_class) "jetbrains-idea")
+  (begin
+   (set_workspace 2)   
+  )
+)

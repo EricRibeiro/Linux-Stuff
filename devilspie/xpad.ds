@@ -1,33 +1,51 @@
 (if (is (application_name) "Xpad")
  (begin
-
-  (if (contains (window_name) "Untitled window")
+ 	
+  (if (contains (window_name) "To Do")
    (begin
-    (geometry "322x169+687+40")
+    (geometry "322x350+15+26")
    )
   )
 
-  (if (contains (window_name) "I.)")
+  (if (contains (window_name) "Exercícios")
    (begin
-    (geometry "322x169+1019+40")
+    (geometry "322x350+352+26")
    )
   )
 
-  (if (contains (window_name) "II.)")
+  (if (contains (window_name) "Provas")
    (begin
-    (geometry "322x169+1019+217")
+    (geometry "322x350+690+26")
    )
   )
 
-  (if (contains (window_name) "III.)")
+  (if (contains (window_name) "Trabalhos")
    (begin
-    (geometry "322x169+1019+393")
+    (geometry "322x350+1028+26")
    )
   )
 
-  (if (contains (window_name) "IV.)")
+  (if (contains (window_name) "Comandos")
    (begin
-    (geometry "322x169+1019+571")
+    (geometry "322x350+15+392")
+   )
+  )
+
+  (if (contains (window_name) "CheatSheet")
+   (begin
+    (geometry "322x350+352+392")
+   )
+  )
+
+  (if (contains (window_name) "VII.)")
+   (begin
+    (geometry "322x350+691+392")
+   )
+  )
+
+  (if (contains (window_name) "VIII.)")
+   (begin
+    (geometry "322x350+1028+392")
    )
   )
 

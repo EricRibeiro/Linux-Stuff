@@ -1,3 +1,8 @@
+# Load JBoss's Forge
+export FORGE_HOME=~/Coding/Java/Forge/
+export PATH=$PATH:$FORGE_HOME/bin
+export JBOSS_USER=eric
+
 # Allow the aliases specified in the file below
 if [ -f ~/Coding/Git/linux-stuff/shell/commands_aliases ]; then
   source ~/Coding/Git/linux-stuff/shell/commands_aliases

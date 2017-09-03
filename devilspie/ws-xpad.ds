@@ -1,0 +1,5 @@
+(if (is (application_name) "Xpad")
+ (begin
+ 	(set_workspace 6)
+ )
+)
